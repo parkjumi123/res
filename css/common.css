@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'NanumSquare';
+    src: url(../font/NanumSquareOTFBold.woff) format("woff2");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'NanumSquare';
+    src: url(../font/NanumSquareOTFRegular.woff) format("woff2");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'TTHoves';
+    src: url(../font/TTHoves-DemiBold.woff) format("woff2");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'TTHoves';
+    src: url(../font/TTHoves-Medium.woff) format("woff2");
+    font-weight: 400;
+}
+
+/* .common-inner{
+    width: 1200px;
+    margin: 0 auto;
+} */
+.blind{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    margin: -1px;    
+    clip:rect(0,0,0,0);
+}
+
+body{
+    color: #000;
+    font-family: 'TTHoves', 'NanumSquare', '나눔스퀘어', '돋움', dotum, arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    min-width: 100%;
+}
+
+.common-inner{
+    position: relative;
+    max-width:1408px;
+    min-width: 1230px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 104px;
+}
+
+
+
+
+
+
+
+/* */
+@media screen and (max-width: 1408px) {
+	/*작은 데스크탑에서 사용될 스타일을 여기에 작성합니다. */
+}
+@media screen and (max-width: 1230px) {
+	.common-inner{min-width:100%}
+}
+
+@media screen and (max-width: 1024px) {
+	/* 테블릿에서 사용될 스타일을 여기에 작성합니다. */
+    .common-inner { padding: 0 50px;}
+}
+
+@media screen and (max-width: 767px) {
+	/* 모바일에서 사용될 스타일을 여기에 작성합니다. */
+    .common-inner { 
+        padding: 0 22px;
+    }
+}

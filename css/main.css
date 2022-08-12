@@ -1,0 +1,212 @@
+/*공통*/
+.sc-text .sc-title { font-size: 64px; line-height: 71px; letter-spacing: -.64px; margin-bottom: 20px; font-weight: bold; } 
+.sc-text .sc-txt { display: inline; vertical-align: middle; padding-right: 30px; font-size: 22px; line-height: 32px; letter-spacing: -0.44px; font-weight: bold; } 
+.link-more { position: relative; display: inline-block; font-size: 14px; font-weight: normal; letter-spacing: -0.36px; border-bottom:1px solid #000; font-weight: normal; vertical-align: top; } 
+
+.content-item .text-box { overflow: hidden; margin-top: 29px; } 
+.content-item .text-box .strong { display: inline; padding-right: 26px; line-height: 36px; font-size: 25px; letter-spacing: -0.5px; font-weight: bold; color: #000; } 
+
+/*start*/
+.container { position: relative; overflow: hidden; padding-top: 64px; margin: 0 auto; height: auto;  min-height: 100%; box-sizing: border-box; } 
+.sc-visual { position: relative; } 
+
+
+/*visual*/
+.sc-visual .visual-wrap { } 
+.sc-visual .visual-wrap .visual-list { display: flex; } 
+.sc-visual .visual-wrap .visual-list .visual-item { width: 100%; position: relative; } 
+.sc-visual .visual-wrap .visual-list .visual-item .video-txt { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); } 
+
+.sc-visual .visual-wrap .visual-list .visual-item .video { width: 100%; height: 554px; object-fit: cover; } 
+.sc-visual .visual-wrap .visual-list .visual-item .video-txt .desc { overflow: hidden; font-size: 100px; line-height: 1.2; letter-spacing: -2.4px; font-weight: 800; white-space: nowrap; color: #fff; text-shadow: 6px 6px 18px rgb(0 0 0 / 16%); animation: fade-out 0.2s linear forwards; box-sizing: border-box; } 
+
+
+
+.sc-search .search-wrapper { position: relative; z-index: 1; }
+.sc-search .search-wrap { display: flex; align-items: center; background: #fff; position: absolute; width: 100%; transform: translateY(-50%); }  
+/* 
+.sc-search .icon-box::after { content: ''; display: block; background: url(../images/sb-bg.png) no-repeat; background-size: 328px 205px; background-position: -245px -40px; width: 18px; height: 18px; }  */
+
+
+
+
+
+
+
+
+.sc-search .sort-field {display: flex; text-align: center; flex: 1;} 
+.sc-search .sort-field .label{ font-size: 14px; line-height: 54px; font-weight: bold; flex-shrink: 0; } 
+.sc-search .sort-field.keyword .label{ padding-left: 67px; position: relative;} 
+.sc-search .sort-field.keyword .label::before{
+    content: ''; display: block;
+     background: url(../images/sb-bg.png) no-repeat; 
+     background-size: 328px 205px; background-position: -245px -40px; 
+     width: 18px; height: 18px;
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     left: 21px;
+ } 
+.sc-search .sort-field .keyword-input{ outline: none;  flex: 1; padding-left: 10px;} 
+.sc-search .sort-field .sort-select{ outline: none; flex: 1; padding: 0 25px 0 10px;
+    background: url(https://recruit.navercorp.com/share/tmplat/naver/img/recruit/ico_arrow_down.png) no-repeat right 10px center / 8px;
+} 
+
+
+
+.sc-search .btn-submit {width: 98px; height: 54px; line-height: 54px; background: #000; color: #fff; font-weight: bold; } 
+.sc-search .btn-submit:hover { background-color: #16ef72; color: #000; border:none;}
+
+.sc-search .search-box { display: none;}
+
+
+
+
+
+/*teams*/
+.sc-teams { padding-top:126px; background-color: #fafafa; color: #000; } 
+
+.sc-teams .teams-wrap { margin-top: 70px; } 
+.sc-teams .teams-wrap .teams-list { } 
+.sc-teams .teams-wrap .teams-list .teams-item { width: 100%;}
+.sc-teams .teams-wrap .teams-list .teams-item:hover {background: #ebebeb; }
+
+.sc-teams .teams-wrap .teams-list .teams-item .teams-box { display: flex; } 
+.sc-teams .teams-wrap .teams-list .teams-item .teams-text { padding: 20px 0; display: inline-block; vertical-align: top; width: 50%; } 
+.sc-teams .teams-wrap .teams-list .teams-item .teams-text .txt { display: inline-block; vertical-align: top; font-size: 38px; line-height: 60px; letter-spacing: -0.34px; } 
+.sc-teams .teams-wrap .teams-list .teams-item .teams-text .number { margin-top: 13px; position: relative; display: inline-block; margin-left: 18px; font-size: 15px; letter-spacing: -0.3px; } 
+.sc-teams .teams-wrap .teams-list .teams-item .teams-text .number::after { content:''; position: absolute; top: -1px; right: -14px; background: url(../images/sb-bg.png) no-repeat; background-size: 328px 205px; background-position: -176px -105px; width: 9px; height: 9px; } 
+.sc-teams .teams-wrap .teams-list .teams-item .teams-box .desc { padding: 20px 0 20px 15px; display: inline-block; vertical-align: top; flex: 1; font-size: 22px; line-height: 60px; letter-spacing: -0.44px; box-sizing: border-box; } 
+
+
+/*people*/
+.sc-people { padding: 95px 0 0;  max-width: 100%;} 
+.people-area { margin: 60px 0 0;  position: relative;}
+.poople-area .people-inner{ }
+.people-area .swiper{ padding: 0 calc(50% - 600px); } 
+.people-area .content-wrap { } 
+.people-area .content-wrap .content-list { } 
+.people-area .content-item {  width: 1200px; box-sizing: border-box; } 
+
+.people-area .content-item .img-box {  height: 520px; } 
+.people-area .content-item .img-box img { width: 100%; height: 100%; object-fit: cover; } 
+.people-area .content-item .text-box .name-box { margin-top: 16px; font-size: 14px; line-height: 24px; letter-spacing: -0.28px; } 
+.people-area .content-item .text-box .naver { display: inline-block; vertical-align: top; } 
+.people-area .content-item .text-box .name { position: relative; display: inline-block; vertical-align: top; margin-left: 12px; } 
+.people-area .content-item .text-box .name::before { content:''; display: inline-block; width: 1px; height: 10px; background-color: #000; position: absolute; left: -8px; top: 6px; } 
+
+.people-area .pagination { position: absolute; bottom: 0; left: 50%; margin-left:600px; transform: translateX(-100%);  z-index: 1;} 
+.people-area .pagination .btn { display: inline-block; } 
+.people-area .pagination .btn.prev { background: url(../images/sb-bg.png) no-repeat; background-size: 328px 205px; background-position: -187px -172px; width: 33px; height: 32px; } 
+.people-area .pagination .btn.next { background: url(../images/sb-bg.png) no-repeat; background-size: 328px 205px; background-position: -113px -172px; width: 33px; height: 32px; } 
+
+
+
+/*benefits*/
+.sc-benefits { padding: 112px 0 0; } 
+.benefits-area { margin: 55px 0px 0; position: relative; } 
+.content-wrap { padding-bottom: 68px; } 
+.content-wrap .content-list { display: flex; } 
+.benefits-area .content-item { width: 380px; box-sizing: border-box; } 
+.benefits-area .content-item .img-box {width: 100%; } 
+.benefits-area .content-item .img-box img { width: 100%; object-fit: cover; } 
+
+.benefits-area .content-item .text-box .fits-desc { margin-top: 20px; font-size: 18px; line-height: 30px; letter-spacing: -0.36px; } 
+
+ .sc-benefits .pagination { position: absolute; bottom: 0; right: 0; z-index: 1;} 
+ .sc-benefits .pagination .btn { float: left;  width: 33px; height: 32px; } 
+ .sc-benefits .pagination .btn.prev { background: url(../images/sb-bg.png) no-repeat; background-size: 328px 205px; background-position: -187px -172px; width: 33px; height: 32px; margin-right: 5px; } 
+ .sc-benefits .pagination .btn.next { background: url(../images/sb-bg.png) no-repeat; background-size: 328px 205px; background-position: -113px -172px; width: 33px; height: 32px; } 
+
+
+
+
+.sc-navership { padding: 95px 0 102px; } 
+.sc-navership .naver-title { font-size: 25px; line-height: 32px; letter-spacing: -0.25px; } 
+.sc-navership .link-support { display: inline-block; margin-top: 18px; font-size: 18px; line-height: 27px; letter-spacing: -0.36px; } 
+.sc-navership .link-support::after { content:''; display: inline-block; margin-left: 11px; width: 33px; height: 32px; background: url(../images/sb-bg.png) no-repeat; background-size: 328px 205px; background-position: -76px -172px; } 
+
+
+
+
+/* */
+@media screen and (max-width: 1408px) {
+	/*작은 데스크탑에서 사용될 스타일을 여기에 작성합니다. */
+}
+@media screen and (max-width: 1230px) {
+	/*작은 데스크탑에서 사용될 스타일을 여기에 작성합니다. */
+    .sc-visual .visual-wrap .visual-list .visual-item .video-txt .desc {
+        font-size: 7vw;
+        /*vw:위드기반한 폰트사이즈*/
+
+    }
+}
+
+@media screen and (max-width: 1024px) {
+	/* 테블릿에서 사용될 스타일을 여기에 작성합니다. */
+    .sc-search .search-wrap { 
+        flex-direction: column;
+        align-items: stretch;   
+    }
+    .sc-search .btn-submit {width: 100%;}
+    .sc-search .sort-field .label {padding-left: 20px;}
+
+    .sc-teams { padding: 22px 0 50px;}
+    .sc-teams .teams-wrap { margin-top: 29px;}
+    .sc-text .sc-title{ font-size: 36px; margin-bottom: 11px; line-height: 50px; letter-spacing: -0.7px;}
+    .sc-text .sc-txt { padding-right: 20px; margin-bottom: 9px; font-size: 16px; line-height: 26px; letter-spacing: -0.32px;}
+    .link-more { font-size: 12px; line-height: 22px; letter-spacing: -0.24px;}
+
+    .sc-teams .teams-wrap .teams-list .teams-item .teams-text { padding: 0;}
+    .sc-teams .teams-wrap .teams-list .teams-item .teams-text .txt { font-size: 24px; line-height: 38px; letter-spacing: -0.48px;}
+    .sc-teams .teams-wrap .teams-list .teams-item .teams-text .number{ margin: 4px 0 0 14px; font-size: 14px; line-height: 22px; letter-spacing: -0.28px; }
+    .sc-teams .teams-wrap .teams-list .teams-item .teams-text .number::after {    top: 1px;
+        background-image: url(../images/sp-bg.png);
+        background-size: 195px 181px;
+        background-position: -129px -28px;
+        width: 11px;
+        height: 11px;}
+    .sc-teams .teams-wrap .teams-list .teams-item .teams-box .desc { margin-top: 1px; width: 100%; font-size: 16px; line-height: 26px; letter-spacing: -0.32px; padding: 0;}   
+    .sc-teams .teams-wrap .teams-list .teams-item .teams-box { flex-direction: column; padding: 16px 0;}
+}   
+
+@media screen and (max-width: 767px) {
+	/* 모바일에서 사용될 스타일을 여기에 작성합니다. */
+
+ 
+
+
+    .sc-search .search-wrapper {display: none;}
+    .sc-search  { display: block; padding: 22px 0 59px; background: #fafafa; }
+    .sc-search .search-box { position: relative; display: block; }
+    .search-box .jobs { width: 100%;
+        position: relative;background-color: #ebebeb;
+        outline: none;
+        padding: 10px 45px 10px 10px;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: -0.28px;
+        color: #696868;
+        font-weight: bold;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box}
+
+
+.search-box::after { 
+    content:'';
+    display: block;
+    background-image: url(../images/sp-bg.png);
+    background-size: 195px 181px;
+    background-position: -140px -125px;
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.people-area { padding: 0 22px;}
+
+.people-area .pagination {  margin-left: 240px; display: flex; bottom: -10%; }
+.people-area .pagination .btn.prev { margin-right: 5px;}
+}
